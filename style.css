@@ -1,0 +1,134 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* Zen Garden Enhanced - Original Images Preserved */
+
+/* basic elements */
+
+
+
+/* Nature Theme for CSS Zen Garden */
+
+body {
+  font-family: 'Georgia', serif;
+  background: #e6f2e6 url('http://csszengarden.com/001/blossoms.jpg') no-repeat bottom right;
+  color: #2f4f4f;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+/* Header */
+h1, h2, h3 {
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #3b5e2b;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 1px 1px #a8d5ba;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  border-left: 5px solid #7bb274;
+  padding-left: 10px;
+}
+
+/* Links */
+a {
+  color: #2b7a3d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Main Container */
+.page-wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 15px;
+}
+
+/* Section: Intro */
+.intro {
+  background: linear-gradient(to right, #d0f0c0, #e9ffe9);
+  padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+
+/* Article Content */
+#zen-supporting > div {
+  background-color: #f3fff3;
+  border: 1px solid #cde5cd;
+  border-radius: 12px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Sidebar */
+.sidebar {
+  background: #f0f8f0;
+  border-left: 5px solid #8fbc8f;
+  padding: 1em;
+  margin-top: 2em;
+  border-radius: 0 15px 15px 0;
+}
+
+.sidebar h3 {
+  color: #336633;
+  font-size: 1.4rem;
+  margin-bottom: 0.5em;
+}
+
+.sidebar a {
+  display: block;
+  padding: 0.3em 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #c8dec8;
+}
+
+footer a {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .page-wrapper {
+    padding: 1em;
+  }
+
+  .sidebar {
+    border-left: none;
+    border-top: 5px solid #8fbc8f;
+    border-radius: 15px 15px 0 0;
+  }
+}
+
